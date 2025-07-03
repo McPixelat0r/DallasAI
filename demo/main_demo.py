@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import json
 import nltk  # Import nltk
+nltk.download('vader_lexicon')
 
 # Import our modular components
 from data_generator import generate_all_data
